@@ -1,6 +1,10 @@
 About
 -----
-This file is describing irctweety design.
+This file is describing irctweety design. irctweety is *a gateway between irc and twitter*.
+It will provide irc goodies to twitter user and twitter goodies to irc users.
+
+It is an irc bot. no web html stuff, it makes it easier to maintain.
+It is coded in nodejs because... i like nodejs :)
 
 potential features
 ------------------
