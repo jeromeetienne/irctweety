@@ -13,7 +13,7 @@ twitter goodies to irc users
 irc goodies to twitter users
 ----------------------------
 * publish irc channel log to an twitter account
-** username conversion (collision with mention twitter convention)
+  * username conversion (collision with mention twitter convention)
 
 about _announcer_
 -----------------
