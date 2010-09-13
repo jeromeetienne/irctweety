@@ -27,6 +27,7 @@ General Principles
 * one twitter account attached to a irc channel
   * the priority is on *community*, not individual
   * Thus if some work is specific to individual, it is less priority than comminity one
+  * the twitter account is the twitter identity of the irc channel
 
 chat between irc and twitter users
 ==================================
@@ -37,9 +38,34 @@ chat between irc and twitter users
   * why is there a need special command ? a mention may be done by normal 'say' command
 * on a channel, !irctweety, say hello from irc
 
+Commands
+========
+* for twitter/irc username conversion, there is a user registration
+  * /msg irctweety register_user mytwitterusername
+  * /msg irctweety confirm_user mytwitterusername
+* for inviting the bot on a irc channel
+  * /msg irctweety invite #mysuperchannel
+  * is it needed to get special right on the channel ? i dont think so
+  * (what about a default twitter search on the channel name ?)
+* add twitter search to the channel
+  * /msg irctweety search #channel foo bar
+* add twitter follow to a irc channel
+  * /msg irctweety follow #channel username/list
+* for echooing #channel activity on a twitter account
+  * register_channel #channel mytwitteruser
+  * confirm_channel #channel mytwitteruser
+
+notes
+-----
+* if a command is sent over the channel, the channel name is inserted as second parameter in the command
 
 Misc
 ====
+* on twitter, irctweety got public timeline, it is autofollow
+  * it allows direct messages 
+
+Alternatives
+============
 * about _announcer_
   * this is a twitter-irc bot from maushu
   * it is specific to #nodejs
