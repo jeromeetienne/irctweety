@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
-<project id="f0ada8b4-af8c-449e-a230-239ca900bedd" kpf_version="4" name="tbot.kpf">
+<project id="f0ada8b4-af8c-449e-a230-239ca900bedd" kpf_version="4" name="irctweety.kpf">
 <preference-set idref="f0ada8b4-af8c-449e-a230-239ca900bedd">
   <boolean id="import_live">1</boolean>
 </preference-set>
