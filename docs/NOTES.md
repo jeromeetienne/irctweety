@@ -16,16 +16,6 @@ existing features
 * on twitter, it is possible to talk “alone”. on irc, any message got a destination, #channel or private msg
 * *summary*: both got very similar features. twitter more long term with logging, twitter more one-to-one, irc more about topic with #channel
 
-
-potential features
-------------------
-* conversation between irc users and twitter users
-** cross networks chatting
-* tweet an irc channel activity
-** send irc data to twitter
-* irc msg from twitter search
-** send twitter data to irc
-
 conventions
 -----------
 * on twitter @username and #tag, on irc “supernick: you are super”
