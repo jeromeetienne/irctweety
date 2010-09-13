@@ -45,6 +45,7 @@ Commands
   * /msg irctweety confirm_user mytwitterusername
 * for inviting the bot on a irc channel
   * /msg irctweety invite #mysuperchannel
+  * /msg irctweety uninvite #mysuperchannel
   * is it needed to get special right on the channel ? i dont think so
   * (what about a default twitter search on the channel name ?)
 * add twitter search to the channel
@@ -52,8 +53,8 @@ Commands
 * add twitter follow to a irc channel
   * /msg irctweety follow #channel username/list
 * for echooing #channel activity on a twitter account
-  * register_channel #channel mytwitteruser
-  * confirm_channel #channel mytwitteruser
+  * /msg irctweety register_channel #channel mytwitteruser
+  * /msg irctweety confirm_channel #channel mytwitteruser
 
 notes
 -----
@@ -63,6 +64,8 @@ Misc
 ====
 * on twitter, irctweety got public timeline, it is autofollow
   * it allows direct messages 
+* how to handle irc users permissions ?
+  * this is such a mess... can i avoid it altogether ?
 
 Alternatives
 ============
