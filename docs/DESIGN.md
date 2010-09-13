@@ -21,27 +21,26 @@ about _announcer_
 * it is specific to #nodejs
 * it does a search on twitter and echo that in #node.js
 * it allow to tweet from irc channel
-** not sure this is announcer, it may be another
+  * not sure this is announcer, it may be another
 
 potential features
 ------------------
 * conversation between irc users and twitter users
-** cross networks chatting
+  * cross networks chatting
 * tweet an irc channel activity
-** send irc data to twitter
-** /msg irctweety retweet #yourchannel @tweetuser
+  * send irc data to twitter
+  * /msg irctweety retweet #yourchannel @tweetuser
 * irc msg from twitter search
-** send twitter data to irc
-** /msg irctweety search_twitter #yourchannel foo bar
+  * send twitter data to irc
+  * /msg irctweety search_twitter #yourchannel foo bar
 
 chat between irc and twitter users
 ----------------------------------
 * send tweets from irc channel to a twitter user
-** wont be twitter direct messages. they requires special authorisations, so are a user hasle.
+  * wont be twitter direct messages. they requires special authorisations, so are a user hasle.
 * on a channel, !irctweety @desttwiuser blabla
-** it will be a mentions in twitter
-** why is there a need special command ? a mention may be done by normal 'say' command
+  * it will be a mentions in twitter
+  * why is there a need special command ? a mention may be done by normal 'say' command
 * on a channel, !irctweety, say hello from irc
-** will 
 
 
