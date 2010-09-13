@@ -20,14 +20,13 @@ chat between irc and twitter users
 ----------------------------------
 * this is an important part of getting the 2 communities closer
 
-Misc
-====
-* about _announcer_
-  * this is a twitter-irc bot from maushu
-  * it is specific to #nodejs
-  * it does a search on twitter and echo that in #node.js
-  * it allow to tweet from irc channel
-    * not sure this is announcer, it may be another
+General Principles
+==================
+* irc only.
+  * much easier to maintain. no chrome at all, only a bot
+* one twitter account attached to a irc channel
+  * the priority is on *community*, not individual
+  * Thus if some work is specific to individual, it is less priority than comminity one
 
 chat between irc and twitter users
 ==================================
@@ -38,4 +37,13 @@ chat between irc and twitter users
   * why is there a need special command ? a mention may be done by normal 'say' command
 * on a channel, !irctweety, say hello from irc
 
+
+Misc
+====
+* about _announcer_
+  * this is a twitter-irc bot from maushu
+  * it is specific to #nodejs
+  * it does a search on twitter and echo that in #node.js
+  * it allow to tweet from irc channel
+    * not sure this is announcer, it may be another
 
